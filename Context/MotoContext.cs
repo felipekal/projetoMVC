@@ -9,13 +9,11 @@ namespace ProjetoMVC.Context
 {
     public class MotoContext : DbContext
     {
-
         public MotoContext(DbContextOptions<MotoContext> options) : base(options)
         {
 
         }
 
         public DbSet<Moto> Motos {get; set;}
-        
     }
 }
